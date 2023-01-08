@@ -1,11 +1,12 @@
 #
+
 <div align="center">
   <img src="./frontend/public/android-chrome-512x512.png" width="15%">
   <h1 align="center">
     Contributing to MUMBLE :
   </h1>
 
-<a href="https://discord.gg/9Du4KUY3dE">![Mumble Community](https://img.shields.io/discord/825371211399692308?label=Mumble%20Community&style=for-the-badge&logo=Discord)</a>
+<a href="https://discord.gg/9Du4KUY3dE"> ![Mumble Community](https://img.shields.io/discord/825371211399692308?label=Mumble%20Community&style=for-the-badge&logo=Discord)</a>
 <a href="https://www.mumble.dev">![Mumble](https://img.shields.io/badge/Mumble-Live%20Demo-9cf?style=for-the-badge)</a>
 <a href="http://mumble-lp.s3-website-us-west-2.amazonaws.com/">![Mumble UI Kit](https://img.shields.io/badge/Mumble-UI%20Kit-orange?style=for-the-badge)</a>
 
@@ -34,7 +35,7 @@ We highly recommend to go through the guideline before start contributing.
       - Project board
       - Reviewers
 
-- NB  
+- NB
 
       - Fork-and-Pull
       - Minor Updates
@@ -85,19 +86,18 @@ For changes that address core functionality or would require breaking changes (e
 
 ### Merging Pull Requests
 
-
-1. It's mandatory that the PR author adds reviewers prior to submitting the PR. Tag reviewers in the message. A collaborator of the repo will officially add them in PR as reviewer(s). 
+1. It's mandatory that the PR author adds reviewers prior to submitting the PR. Tag reviewers in the message. A collaborator of the repo will officially add them in PR as reviewer(s).
 2. All PRs will require the approval of both reviewers prior to the branch merge. Once the last reviewer approves the changes, they can merge the branch.
 3. The PR author should **add two reviewers; unless the change is so minor (think documentation, code formatting)**. A collaborator will choose a label "Review: Needs 1" **OR** "Review: Needs 2" to further organize the repo and review system.
 
 #
 
-### Project Board 
+### Project Board
 
 In our repository, there is a project board named Tasks - Mumble, it helps moderators to see how is the work going.
 <br/>
 
-*Preview :*
+_Preview :_
 <img align="center" src="./images/projects-icon.PNG"/>
 
 <img align="center" src="./images/project-board.gif">
@@ -119,30 +119,29 @@ After submitting your PR, please tag reviewer(s) in your PR message. You can tag
 
 <br/>
 
-- **Markdown, Documentation changes :** 
+- **Markdown, Documentation changes :**
 
-     Request [@Mehdi - MidouWebDev](https://github.com/MidouWebDev)'s review !
+  Request [@Mehdi - MidouWebDev](https://github.com/MidouWebDev)'s review !
 
 #
 
 - **Frontend, Design :**
 
-     --> *Choose two reviewers :*
+  --> _Choose two reviewers :_
 
-    [@Dennis Ivy](https://github.com/divanov11)
+  [@Dennis Ivy](https://github.com/divanov11)
 
-    [@Shahriar Parvez](https://github.com/Mr-spShuvo)
+  [@Shahriar Parvez](https://github.com/Mr-spShuvo)
 
-    [@Cody Seibert](https://github.com/codyseibert)
+  [@Cody Seibert](https://github.com/codyseibert)
 
-    [@Mehdi - MidouWebDev](https://github.com/MidouWebDev)
-    
+  [@Mehdi - MidouWebDev](https://github.com/MidouWebDev)
+
 #
 
 ### Fork & Pull
 
 In general, we follow the **fork-and-pull**
-
 
 #### Steps :
 
@@ -150,56 +149,56 @@ In general, we follow the **fork-and-pull**
 
 **2. Clone the forked project to your machine**
 
-   ```bash
-    git clone https://github.com/<your-github-username>/Mumble.git
-   ```
+```bash
+ git clone https://github.com/<your-github-username>/Mumble.git
+```
 
 **3. Add Upstream or the remote of the original project to your local repository**
 
-   ```bash
-   # check remotes
-   git remote -v
-   git remote add upstream https://github.com/divanov11/Mumble.git
-   ```
+```bash
+# check remotes
+git remote -v
+git remote add upstream https://github.com/divanov11/Mumble.git
+```
 
 **4. Make sure you update the local repository**
 
-   ```bash
-   # Get updates
-   git fetch upstream
-   # switch to master branch
-   git checkout master
-   # Merge updates to local repository
-   git merge upstream/master
-   # Push to github repository
-   git push origin master
-   ```
+```bash
+# Get updates
+git fetch upstream
+# switch to master branch
+git checkout master
+# Merge updates to local repository
+git merge upstream/master
+# Push to github repository
+git push origin master
+```
 
 **5. Create a branch locally with a succinct but descriptive name**
 
-   ```bash
-   git checkout -b branch-name
-   ```
+```bash
+git checkout -b branch-name
+```
 
 **6. Commit changes to the branch**
 
-   ```bash
-   # Stage changes for commit i.e add all modified files to commit
-   git add .
-   # You can also add specific files using
-   # git add <filename1> <filename2>
-   git commit -m "your commit message goes here"
-   # check status
-   git status
-   ```
+```bash
+# Stage changes for commit i.e add all modified files to commit
+git add .
+# You can also add specific files using
+# git add <filename1> <filename2>
+git commit -m "your commit message goes here"
+# check status
+git status
+```
 
 **7. Following any formatting and testing guidelines specific to this repository**
 
 **8. Push changes to your fork**
 
-   ```bash
-   git push origin branch-name
-   ```
+```bash
+git push origin branch-name
+```
 
 **9. Open a PR in our repository and follow the PR template so that we can efficiently review the changes.**
 
